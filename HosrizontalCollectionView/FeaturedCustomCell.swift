@@ -10,4 +10,10 @@ import UIKit
 
 class FeaturedCustomCell: UICollectionViewCell {
     
+    @IBOutlet var imageView: UIImageView!
+    @IBOutlet var nameLabel: UILabel!
+    @IBOutlet var schoolSectorLabel: UILabel!
+    
+    
+    
 }
